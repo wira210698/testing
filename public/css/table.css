@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    display: inline-block;
+    min-width: 10px;
+    margin-left: -6px;
+    margin-right: 0;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 6px;
+    border: 1px solid #ccc;
+
+}
+
+.data {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
